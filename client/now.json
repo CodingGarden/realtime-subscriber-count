@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "cg-sub-count",
+  "builds": [
+    {
+      "src": "dist/*",
+      "use": "@now/static"
+    }
+  ],
+  "alias": [
+    "cg-sub-count"
+  ]
+}
