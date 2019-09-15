@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue serve App.vue",
+    "build": "vue build App.vue"
+  },
+  "keywords": [],
+  "author": "w3cj <cj@null.computer>",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/cli": "^3.11.0",
+    "flipclock": "^0.8.2",
+    "jquery": "^3.4.1",
+    "socket.io-client": "^2.2.0",
+    "vue-confetti": "^2.0.1"
+  },
+  "devDependencies": {
+    "expose-loader": "^0.7.5"
+  }
+}
